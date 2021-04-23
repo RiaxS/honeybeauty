@@ -1,0 +1,39 @@
+@font-face{
+  font-family: 'Poppins Regular Webfont';
+  src: url('../fonts/Poppins-Regular.woff') format('woof');
+  src: url('../fonts/Poppins-Regular.ttf') format('truetype');
+}
+
+@font-face{
+  font-family: 'Poppins Bold Webfont';
+  src: url('../fonts/Poppins-Bold.woff') format('woof');
+  src: url('../fonts/Poppins-Bold.ttf') format('truetype');
+}
+
+@font-face{
+  font-family: 'Poppins Light Webfont';
+  src: url('../fonts/Poppins-Light.woff') format('woof');
+  src: url('../fonts/Poppins-Light.ttf') format('truetype');
+}
+
+
+h1{
+    color: black;  
+    font-size: 50px;
+    margin-left: 5rem;
+    margin-top: 2rem; 
+    font-family: 'Poppins Regular Webfont';
+
+}
+
+.text-contact, .text-about, text-mision{
+  color:black;
+  font-size: 15px;
+  font-family: 'Poppins Light Webfont';
+  margin-left: 5rem;
+  margin-top: 1rem;
+}
+
+.navbar{
+  font-family: 'Poppins Regular Webfont';
+}
