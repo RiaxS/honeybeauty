@@ -16,18 +16,14 @@
   src: url('../fonts/Poppins-Light.ttf') format('truetype');
 }
 
-.navbar-light{
+.navbar-dark, .part-one, .indigo{
   background-color: rgb(178, 184, 228);
 }
 
-.part-one{
-  background-color: rgb(178, 184, 228);
-}
 
 h1{  
     font-size: 50px;
-    margin-left: 5rem;
-    margin-top: 2rem; 
+    margin-top: 4rem; 
     font-family: 'Poppins Regular Webfont';
 
 }
@@ -36,12 +32,11 @@ h1{
   color: white;
 }
 
-.text-contact, .text-about, text-mision{
+.text-contact, .text-about, .text-mision{
   color:black;
-  font-size: 15px;
+  font-size: 20px;
   font-family: 'Poppins Light Webfont';
-  margin-left: 5rem;
-  margin-top: 1rem;
+  
 }
 
 .navbar{
@@ -84,4 +79,31 @@ h1{
   position: relative;
   width: 100%;
   height: 100%;
+}
+
+.text-footer{
+  color: white;
+  font-family: 'Poppins Light Webfont';
+}
+
+.text-footer-hu, .text-footer-in,  .text-footer-cu{
+  color: white;
+  line-height: 1.7rem;
+  font-family: 'Poppins Light Webfont';
+}
+
+.text-footer-hu{
+  font-size: 40px;
+}
+
+.text-footer-in{
+  font-size: 20px;
+}
+
+.text-footer-cu{
+  font-size: 30px;
+}
+
+.ic {
+  width: 3vw;
 }

@@ -10,53 +10,101 @@
     <title>Contact Us</title>
 </head>
 <body> 
-    
+    <div class="container-fluid">
 
-          <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <div class="container-fluid">
-              
-              <div class="row collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
-                    <li class="col-4 nav-item">
-                        <a class="nav-link" href=http://localhost/honeybeauty/index.html>Honey Beauty</a>
-                      </li>
-                  <li class="col-4 nav-item">
-                    <a class="nav-link" href=http://localhost/honeybeauty/skincare.html>Skin Care</a>
-                  </li>
-                  <li class="col-4 nav-item">
-                    <a class="nav-link" href="http://localhost/honeybeauty/makeup.html">Make up</a>
-                  </li>
-                  <li class="col-4 nav-item">
-                    <a class="nav-link" href="http://localhost/honeybeauty/contactus.html">Contact Us</a>
-                  </li>
-                  <form class="col-4 align-items-end d-flex">
-                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success" type="submit">Search</button>
-                  </form>
-                </ul>
+      <nav class="navbar navbar-expand-lg navbar-dark">
 
-                
-                
+          
+        <div class="row collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+              <li class="col-3 nav-item">
+                  <a class="nav-link" href=http://localhost/honeybeauty/index.html>Honey Beauty</a>
+                </li>
+            <li class="col-3 nav-item">
+              <a class="nav-link" href=http://localhost/honeybeauty/skincare.html>Skin Care</a>
+            </li>
+            <li class="col-3 nav-item">
+              <a class="nav-link" href="http://localhost/honeybeauty/makeup.html">Make up</a>
+            </li>
+            <li class="col-3 nav-item">
+              <a class="nav-link" href="http://localhost/honeybeauty/aboutus.html">About Us</a>
+            </li>
+            <li class="col-3 nav-item">
+              <a class="nav-link" href="http://localhost/honeybeauty/contactus.html">Contact Us</a>
+            </li>
+            <form class="col-4 align-items-end d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </ul>
+          </div>
+      </nav>
+      <div class="row contact-us justify-content-center">
 
+      <h1 class="title-page col-md-2">Contact Us</h1>
+      </div>
+
+      <div class="row justify-content-center">
+
+      <p class="col-md-8 text-contact">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus condimentum eleifend libero, eu 
+        ornare lectus placerat ut. Suspendisse egestas mi mi, et posuere mauris viverra condimentum. 
+        Mauris quis leo et felis rutrum lobortis ut in massa. Nam vel tincidunt urna. Cras egestas at elit a euismod. 
+        Pellentesque quis magna vel nulla dapibus efficitur. Aliquam imperdiet interdum diam ac lacinia. 
+        Proin non ex ut arcu malesuada vestibulum. Morbi mollis risus vel purus vulputate, sed suscipit mauris lobortis. 
+        Donec sed leo sit amet lectus volutpat ultrices id at metus. Praesent at sagittis elit. Phasellus eu nisl quis turpis 
+        vulputate pulvinar. 
+        Maecenas commodo purus nec laoreet ornare. Etiam ligula nunc, elementum vitae urna nec, scelerisque rhoncus urna. </p>
+      </div>
+
+
+      <form id="contact-form" method="post" action="" role="form">
+
+        <div class="messages"></div>
+
+        <div class="controls">
+
+          <div class="row justify-content-center">
+            <div class="col-md-6">
+              <div class="form-group">
+                <label for="form_name">Name</label>
+                <input id="form_name" type="text" name="name" class="form-control" placeholder="Please enter your name" required="required" data-error="Firstname is required.">
+                <div class="help-block with-errors"></div>
               </div>
             </div>
-          </nav>
-  <div class="row contact-us">
-    <h1 class="title-page col-12">Contact Us</h1>
+          </div>
+          <div class="row justify-content-center">
+            <div class="col-md-6">
+              <div class="form-group">
+                <label for="form_email">Email</label>
+                <input id="form_email" type="email" name="email" class="form-control" placeholder="Please enter your email" required="required" data-error="Valid email is required.">
+                <div class="help-block with-errors"></div>
+              </div>
+            </div>
+          </div>
+          <div class="row justify-content-center">
+            <div class="col-md-6">
+              <div class="form-group">
+                <label for="form_message">Message</label>
+                <textarea id="form_message" name="message" class="form-control" placeholder="Message for us" rows="4" required data-error="Please,leave us a message."></textarea>
+                <div class="help-block with-errors"></div>
+              </div>
+            </div>
+            
+          </div>
 
-    <p class="col-6 text-contact">
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus condimentum eleifend libero, eu 
-      ornare lectus placerat ut. Suspendisse egestas mi mi, et posuere mauris viverra condimentum. 
-      Mauris quis leo et felis rutrum lobortis ut in massa. Nam vel tincidunt urna. Cras egestas at elit a euismod. 
-      Pellentesque quis magna vel nulla dapibus efficitur. Aliquam imperdiet interdum diam ac lacinia. 
-      Proin non ex ut arcu malesuada vestibulum. Morbi mollis risus vel purus vulputate, sed suscipit mauris lobortis. 
-      Donec sed leo sit amet lectus volutpat ultrices id at metus. Praesent at sagittis elit. Phasellus eu nisl quis turpis 
-      vulputate pulvinar. 
-      Maecenas commodo purus nec laoreet ornare. Etiam ligula nunc, elementum vitae urna nec, scelerisque rhoncus urna. </p>
-    </div>
+          <div class="row justify-content-center">
+            <div class="col-md-6">
+              <input type="submit" class="btn btn-outline-info" value="Send message">
+            </div>
+          </div>
+         
+        </div>
 
+        </form>
 
-
+    </div> 
+    
 
 </body>
 </html>
