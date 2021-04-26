@@ -105,5 +105,9 @@ h1{
 }
 
 .ic {
-  width: 3vw;
+  width: 2vw;
+}
+
+.our-mision, .form-contact{
+  margin-bottom: 5rem;
 }
