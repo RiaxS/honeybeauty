@@ -327,6 +327,7 @@ h1{
 .sale{
   margin-top: 8rem;
   background: #CBE5F4;
+  margin-bottom: 6rem;
   .img-ps{
     height: 400px;
     width: 400px;
@@ -352,6 +353,109 @@ h2{
       font-size: 1.5rem;
   }
 }
+
+h4{
+  font-family: 'Poppins Regular Webfont';
+  color: black;
+  font-size: 4rem;
+  text-shadow: 10px 10px 10px #B2B8E4;
+  margin-bottom: 3rem;
+  text-align: center;
+  @include respond-to($phone){
+    font-size: 1rem;
+}
+}
+
+.packs{
+  margin: 0;
+}
+
+.packs a {
+  text-decoration: none;
+}
+
+h3 {
+  font-family: 'Poppins Regular Webfont';
+  font-weight: 300;
+  font-size: 2rem;
+}
+
+.card {
+  float: left;
+  padding: 0 1.7rem;
+  width: 25%;
+  border: 0ch;
+  margin-bottom: 7rem;
+}
+
+.card .wrapper {
+  background-color: #fff;
+  min-height: 340px;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.2);
+}
+.card .wrapper:hover .data {
+  transform: translateY(0);
+}
+.card .data {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  transform: translateY(calc(70px + 1em));
+  transition: transform 0.3s;
+}
+.card .data .content {
+  padding: 1em;
+  position: relative;
+  z-index: 1;
+}
+
+.card .title {
+  margin-top: 10px;
+  font-weight: 600;
+}
+.card .text {
+  height: 70px;
+  margin: 0;
+  font-weight: 500;
+}
+
+
+.example-2 .data {
+  color: black;
+  transform: translateY(calc(70px + 4em));
+}
+.example-2 .title a {
+  color: black;
+}
+.example-2 .button {
+  display: block;
+  width: 100px;
+  margin: 2em auto 1em;
+  text-align: center;
+  font-size: 12px;
+  color: black;
+  line-height: 1;
+  position: relative;
+  font-weight: 700;
+}
+.example-2 .button::after {
+  content: "→";
+  opacity: 0;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translate(0, -50%);
+  transition: all 0.3s;
+}
+.example-2 .button:hover::after {
+  transform: translate(5px, -50%);
+  opacity: 1;
+}
+
+
+
 
 
 
@@ -389,3 +493,55 @@ h2{
 .our-mision, .form-contact{
   margin-bottom: 5rem;
 }
+
+
+
+
+
+
+
+.typing-demo {
+    position: absolute;
+    width: 46ch;
+    animation: typing 2s steps(22), blink .5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid;
+    font-family: monospace;
+    font-size: 1.9em;
+    z-index: 2;
+    margin-top: 10rem;
+    margin-left: 5rem;
+    color: #fff;
+    @include respond-to($phone){
+        font-size: 0.7rem;
+        margin-top: 2rem;
+        margin-left: 9rem;
+    }
+    @include respond-to($tablet-landscape){
+        font-size: 1.3rem;
+        margin-top: 5rem;
+        margin-left: 22rem;
+    }
+}
+  
+@keyframes typing {
+    from {
+      width: 0
+    }
+}
+      
+@keyframes blink {
+    50% {
+      border-color: transparent
+    }
+}
+
+.portada{
+    position: relative;
+}
+
+.cv{
+    margin-top: 3rem;
+}
+
