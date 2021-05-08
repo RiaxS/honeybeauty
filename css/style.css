@@ -97,6 +97,11 @@ body {
 .new-products {
   margin-top: 45rem;
 }
+@media only screen and (min-width: 768px) and (max-width: 979px) {
+  .new-products {
+    margin-top: 20rem;
+  }
+}
 
 h1 {
   margin-left: -81px;

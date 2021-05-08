@@ -99,6 +99,9 @@ body{
 
 .new-products{
   margin-top: 45rem;
+  @include respond-to($tablet-landscape){
+    margin-top: 20rem;
+  }
 }
 
 h1{
