@@ -25,6 +25,7 @@ body {
 @media only screen and (max-width: 480px) {
   .form-control {
     width: 69%;
+    margin-left: 1rem;
   }
 }
 
@@ -45,6 +46,8 @@ body {
 @media only screen and (max-width: 480px) {
   .navbar {
     padding: 0.5rem;
+    margin-top: -1rem;
+    background: rgba(0, 0, 0, 0.5);
   }
 }
 
@@ -65,6 +68,11 @@ body {
 
 .navbar-dark .navbar-nav .nav-link {
   color: white;
+  margin-left: 1rem;
+}
+
+.navbar-collapse {
+  background: rgba(0, 0, 0, 0.5);
 }
 
 .btn-search {
@@ -97,6 +105,11 @@ body {
 .new-products {
   margin-top: 45rem;
 }
+@media only screen and (max-width: 480px) {
+  .new-products {
+    margin-top: 12rem;
+  }
+}
 @media only screen and (min-width: 768px) and (max-width: 979px) {
   .new-products {
     margin-top: 20rem;
@@ -111,6 +124,24 @@ h1 {
   font-family: "Poppins Regular Webfont";
   color: black;
   text-shadow: 10px 10px 10px #B2B8E4;
+  word-spacing: 2rem;
+}
+@media only screen and (max-width: 480px) {
+  h1 {
+    font-size: 2rem;
+    margin-top: 1rem;
+    word-spacing: 0rem;
+    margin-left: 0.5rem;
+    margin-bottom: 1rem;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 979px) {
+  h1 {
+    font-size: 4rem;
+    margin-bottom: 15rem;
+    word-spacing: 0rem;
+    margin-left: 0.2rem;
+  }
 }
 
 .row {
@@ -131,17 +162,15 @@ h1 {
 }
 @media only screen and (max-width: 480px) {
   .sl .blog-slider {
-    height: 500px;
-    width: 44%;
-    margin: 180px auto;
-    margin-top: 18rem;
+    height: 450px;
+    width: 100%;
+    margin: -55px auto;
+    margin-top: 8rem;
   }
 }
-@media screen and (max-width: 768x) {
+@media only screen and (min-width: 768px) and (max-width: 979px) {
   .sl .blog-slider {
-    max-width: 650px;
-    height: 400px;
-    margin-top: 4rem;
+    height: 620px;
   }
 }
 .sl .blog-slider__item {
@@ -153,7 +182,7 @@ h1 {
     flex-direction: column;
   }
 }
-@media screen and (max-width: 768px) {
+@media only screen and (min-width: 768px) and (max-width: 979px) {
   .sl .blog-slider__item {
     flex-direction: column;
   }
@@ -240,15 +269,20 @@ h1 {
   border-radius: 20px;
   transition: all 0.3s;
 }
-@media screen and (max-width: 768px) {
+@media only screen and (min-width: 768px) and (max-width: 979px) {
   .sl .blog-slider__img {
     transform: translateY(-50%);
-    width: 90%;
+    width: 80%;
+    height: 80%;
+    margin-bottom: -5rem;
   }
 }
-@media screen and (max-width: 576px) {
+@media only screen and (max-width: 480px) {
   .sl .blog-slider__img {
-    width: 95%;
+    width: 70%;
+    height: 45%;
+    margin-bottom: 31rem;
+    transform: translateX(41px);
   }
 }
 @media screen and (max-height: 500px) and (min-width: 992px) {
@@ -289,11 +323,29 @@ h1 {
   color: #0d0925;
   margin-bottom: 20px;
 }
+@media only screen and (max-width: 480px) {
+  .sl .blog-slider__title {
+    margin-top: 12rem;
+    margin-left: -12rem;
+  }
+}
 .sl .blog-slider__text {
   font-family: "Poppins Light Webfont";
   color: #4e4a67;
   margin-bottom: 30px;
   line-height: 1.5em;
+}
+@media only screen and (max-width: 480px) {
+  .sl .blog-slider__text {
+    margin-top: -1rem;
+    margin-left: -12rem;
+    padding: 0.5rem;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 979px) {
+  .sl .blog-slider__text {
+    font-size: 1.3rem;
+  }
 }
 .sl .blog-slider__button {
   display: inline-flex;
@@ -313,9 +365,16 @@ h1 {
     width: 100%;
   }
 }
+@media only screen and (max-width: 480px) {
+  .sl .blog-slider__button {
+    width: 12rem;
+    margin-left: -12rem;
+    margin-top: -1rem;
+  }
+}
 @media only screen and (min-width: 768px) and (max-width: 979px) {
   .sl .blog-slider__button {
-    margin-top: 2rem;
+    margin-top: 0rem;
   }
 }
 .sl .blog-slider .swiper-container-horizontal > .swiper-pagination-bullets, .sl .blog-slider .swiper-pagination-custom, .sl .blog-slider .swiper-pagination-fraction {
@@ -343,6 +402,11 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
+  }
+}
+@media only screen and (max-width: 768px) and (max-width: 480px) {
+  .sl .blog-slider__pagination {
+    margin-top: -6rem;
   }
 }
 .sl .blog-slider__pagination.swiper-pagination-bullets .swiper-pagination-bullet {
