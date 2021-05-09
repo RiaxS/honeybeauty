@@ -28,6 +28,11 @@ body {
     margin-left: 1rem;
   }
 }
+@media only screen and (min-width: 768px) and (max-width: 979px) {
+  .form-control {
+    margin-left: 2rem;
+  }
+}
 
 .bannerContainer {
   position: relative;
@@ -50,6 +55,13 @@ body {
     background: rgba(0, 0, 0, 0.5);
   }
 }
+@media only screen and (min-width: 768px) and (max-width: 979px) {
+  .navbar {
+    padding: 0.5rem;
+    margin-top: -1rem;
+    background: rgba(0, 0, 0, 0.5);
+  }
+}
 
 .navbar-brand {
   padding-right: 2rem;
@@ -65,10 +77,20 @@ body {
     border-bottom: #fff 0.1rem solid;
   }
 }
+@media only screen and (min-width: 768px) and (max-width: 979px) {
+  .nav-item {
+    border-bottom: #fff 0.1rem solid;
+  }
+}
 
 .navbar-dark .navbar-nav .nav-link {
   color: white;
   margin-left: 1rem;
+}
+@media only screen and (min-width: 768px) and (max-width: 979px) {
+  .navbar-dark .navbar-nav .nav-link {
+    margin-left: 2rem;
+  }
 }
 
 .navbar-collapse {

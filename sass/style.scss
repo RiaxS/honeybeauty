@@ -33,6 +33,9 @@ body{
         width: 69%;
         margin-left: 1rem;
     }
+    @include respond-to($tablet-landscape){
+      margin-left: 2rem;
+  }
 }
 
 .bannerContainer {
@@ -53,6 +56,11 @@ body{
       margin-top: -1rem;
       background: rgba(0, 0, 0, 0.5);
     }
+    @include respond-to($tablet-landscape){
+      padding: 0.5rem;
+      margin-top: -1rem;
+      background: rgba(0, 0, 0, 0.5);
+    }
 }
 
 .navbar-brand{
@@ -67,11 +75,17 @@ body{
         border-bottom: #fff 0.1rem solid;
 
     }
+    @include respond-to ($tablet-landscape){
+      border-bottom: #fff 0.1rem solid;
+    }
 }
 
 .navbar-dark .navbar-nav .nav-link {
   color: white;
   margin-left: 1rem;
+  @include respond-to($tablet-landscape){
+    margin-left: 2rem;
+  }
 }
 
 .navbar-collapse{
