@@ -51,12 +51,13 @@ body{
 
 .navbar{
     padding: 1rem;
-    @include respond-to($phone){
-      padding: 0.5rem;
+    background: transparent;
+    @include respond-to($tablet-landscape){
+      margin-left: -1rem;
       margin-top: -1rem;
       background: rgba(0, 0, 0, 0.5);
     }
-    @include respond-to($tablet-landscape){
+    @include respond-to($phone){
       padding: 0.5rem;
       margin-top: -1rem;
       background: rgba(0, 0, 0, 0.5);
@@ -89,7 +90,12 @@ body{
 }
 
 .navbar-collapse{
-  background: rgba(0, 0, 0, 0.5);
+  @include respond-to($phone){
+    background: rgba(0, 0, 0, 0.5);
+  }
+  @include respond-to($tablet-landscape){
+    background: rgba(0, 0, 0, 0.5);
+  }
 }
 
 .btn-search{
@@ -445,6 +451,12 @@ h3 {
   width: 25%;
   border: 0ch;
   margin-bottom: 7rem;
+  @include respond-to($phone){
+    width: 100%;
+  }
+  @include respond-to($tablet-landscape){
+    width: 50%;
+  }
 }
 
 .card .wrapper {
@@ -479,7 +491,6 @@ h3 {
   margin: 0;
   font-weight: 500;
 }
-
 
 .example-2 .data {
   color: black;
