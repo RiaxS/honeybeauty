@@ -139,8 +139,8 @@ carousel-->
     <div class="col">
       <img class="img-sale" src="./imgs/sale.png" alt="">
     </div>
-    <div class="col">
-      <h2>SoonJung 2x Barrier Intensive Cream 60ml (21AD)</h2>
+    <div class="col sale-title">
+      <p>SoonJung 2x Barrier Intensive Cream 60ml (21AD)</p>
     </div>
     <div class="col-md-3 offset-md-3">
       <img class="img-ps" src="./imgs/cream.jpg" alt="">
@@ -154,62 +154,69 @@ carousel-->
   <h4>PACKS</h4>
 </div>
 <div class="packs">
-  <div class="row">
-    <div class="example-2 card">
-      <div class="wrapper">
-        <img src="./imgs/c1.jpg" alt="c1">
-        <div class="data">
-          <div class="content">
-            <h3 class="title"><a href="#">SoonJung Calming Cleansing Set</a></h3>
-            <p class="text">Hypoallergenic Cleansing Set that contains Panthensoside™ which gently cleanses irritated skin 
-              from external stresses</p>
+  <div class="container">
+    <div class="row flip-boxes">
+      <div class="col-md-3 col-sm-4 col-8 flip-box">
+        <div class="front c1">
+          <div class="content text-center">
+            SoonJung Calming Cleansing Set<br>
+            </span>
+          </div>
+        </div>
+        <div class="back">
+          <div class="content b1">
+            Hypoallergenic Cleansing Set that contains Panthensoside™ which gently cleanses irritated skin 
+              from external stresses
+              <a href="#" class="button">Read more</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3 col-sm-4 col-6 flip-box">
+        <div class="front c2">
+          <div class="content text-center" >
+            Moistfull Collagen Skin Care Set (3 Kinds)
+          </div>
+        </div>
+        <div class="back">
+          <div class="content b2">
+            The small particles of the Super Collagen™ water(Hydrolyzed Collagen) makes skin full of firming 
+              moisture and feeling bouncy
+              <a href="#" class="button">Read more</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3 col-sm-4 col-6 flip-box">
+        <div class="front c3">
+          <div class="content text-center">
+            KIT FEEL THE MAGIC
+          </div>
+        </div>
+        <div class="back">
+          <div class="content b3">
+            Some of the best Costa products, just for you to get to know them and fall in love the brand
             <a href="#" class="button">Read more</a>
           </div>
         </div>
       </div>
-    </div>
 
-    <div class="example-2 card">
-      <div class="wrapper">
-        <img src="./imgs/c2.jpg" alt="c2">
-        <div class="data">
-          <div class="content">
-            <h3 class="title"><a href="#">Moistfull Collagen Skin Care Set (3 Kinds)</a></h3>
-            <p class="text">The small particles of the Super Collagen™ water(Hydrolyzed Collagen) makes skin full of firming 
-              moisture and feeling bouncy</p>
-            <a href="#" class="button">Read more</a>
+      <div class="col-md-3 col-sm-4 col-6 flip-box">
+        <div class="front c4">
+          <div class="content text-center" >
+            [SET] Wonder Pore Must-Haves
+          </div>
+        </div>
+        <div class="back">
+          <div class="content b4">
+            Wonder Pore line demonstrates a perfect pore care, which contains Peppermint Vinegar, 
+              and Mentha Arvensis Leaf Extracts.
+              <a href="#" class="button">Read more</a>
           </div>
         </div>
       </div>
+      
     </div>
-
-    <div class="example-2 card">
-      <div class="wrapper">
-        <img src="./imgs/c3.jpg" alt="c3">
-        <div class="data">
-          <div class="content">
-            <h3 class="title"><a href="#">KIT FEEL THE MAGIC</a></h3>
-            <p class="text">Some of the best Costa products, just for you to get to know them and fall in love the brand</p>
-            <a href="#" class="button">Read more</a>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="example-2 card">
-      <div class="wrapper">
-        <img src="./imgs/c4.jpg" alt="c4">
-        <div class="data">
-          <div class="content">
-            <h3 class="title"><a href="#">[SET] Wonder Pore Must-Haves</a></h3>
-            <p class="text">Wonder Pore line demonstrates a perfect pore care, which contains Peppermint Vinegar, 
-              and Mentha Arvensis Leaf Extracts.</p>
-            <a href="#" class="button">Read more</a>
-          </div>
-        </div>
-      </div>
-    </div>
-
   </div>
 </div>
 <!--packs-->
